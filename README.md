@@ -1,2 +1,2 @@
 # Demo
-https://kotuba.github.io/Personal-Portfoilio/
+https://kotuba.github.io/Personal-Portfolio/
