@@ -6,7 +6,8 @@
     }
 
     #main-data {
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
 
     #main-data input {
@@ -50,7 +51,7 @@
         margin-left: 20px;
         margin-right: 10px;
     }
-    
+
     .navbar-toggler, #logo-name-portfolio {
         padding: 0px;
         margin-bottom: 10px;
@@ -160,7 +161,7 @@
     #cnt-main-contact {
         margin-top: 0px;
     }
-    
+
     #title-contact {
         margin-bottom: 10px;
         padding-bottom: 10px;
@@ -195,12 +196,18 @@
 
     .menu-info {
         min-width: 100%;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
     #social-media-about-portfolio {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     #titile-about {
@@ -222,7 +229,7 @@
     .nav-works-items {
         margin: 0px 8px;
     }
-    
+
     #subtitle-services, #subtitle-works {
         margin: 0px 15px;
     }
